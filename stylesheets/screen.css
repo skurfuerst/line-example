@@ -1,0 +1,12 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 20, ../sass/screen.scss */
+.box-black-multiline {
+  padding: 20px;
+  background-image: url(../images/black-multiple-horiz.png), url(../images/black-multiple-horiz.png), url(../images/black-multiple-vert.png), url(../images/black-multiple-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2189px 20px, 2189px 20px, 20px 2189px, 20px 2189px;
+}
