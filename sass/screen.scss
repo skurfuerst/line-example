@@ -5,9 +5,8 @@
 
 
 @mixin box($baseFileName, $imageWidth, $padding: 20px) {
-
 	padding: $padding;
-	$imageLength: image-width('black-multiple-horiz.png');
+	$imageLength: image-width('#{$baseFileName}-horiz.png');
 
 	background-image: url(../images/#{$baseFileName}-horiz.png), url(../images/#{$baseFileName}-horiz.png), url(../images/#{$baseFileName}-vert.png), url(../images/#{$baseFileName}-vert.png);
 
@@ -17,6 +16,39 @@
 	background-size: $imageLength $imageWidth, $imageLength $imageWidth, $imageWidth $imageLength, $imageWidth $imageLength;
 }
 
-.box-black-multiline {
-	@include box(black-multiple, 20px);
+
+.box-black-multi-1 {
+	@include box(black-multi-1, 20px);
+}
+
+.box-black-single-1 {
+	@include box(black-single-1, 20px);
+}
+.box-black-single-2 {
+	@include box(black-single-2, 20px);
+}
+
+.box-blue-multi-1 {
+	@include box(blue-multi-1, 20px);
+}
+.box-blue-multi-2 {
+	@include box(blue-multi-2, 20px);
+}
+
+.box-blue-single-1 {
+	@include box(blue-single-1, 20px);
+}
+.box-blue-single-2 {
+	@include box(blue-single-2, 20px);
+}
+
+.box-red-multi-1 {
+	@include box(red-multi-1, 20px);
+}
+
+.box-red-single-1 {
+	@include box(red-single-1, 20px);
+}
+.box-red-single-2 {
+	@include box(red-single-2, 20px);
 }

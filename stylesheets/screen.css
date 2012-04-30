@@ -3,10 +3,91 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 20, ../sass/screen.scss */
-.box-black-multiline {
+.box-black-multi-1 {
   padding: 20px;
-  background-image: url(../images/black-multiple-horiz.png), url(../images/black-multiple-horiz.png), url(../images/black-multiple-vert.png), url(../images/black-multiple-vert.png);
+  background-image: url(../images/black-multi-1-horiz.png), url(../images/black-multi-1-horiz.png), url(../images/black-multi-1-vert.png), url(../images/black-multi-1-vert.png);
   background-position: top left, bottom left, left, right;
   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-  background-size: 2189px 20px, 2189px 20px, 20px 2189px, 20px 2189px;
+  background-size: 2211px 20px, 2211px 20px, 20px 2211px, 20px 2211px;
+}
+
+/* line 24, ../sass/screen.scss */
+.box-black-single-1 {
+  padding: 20px;
+  background-image: url(../images/black-single-1-horiz.png), url(../images/black-single-1-horiz.png), url(../images/black-single-1-vert.png), url(../images/black-single-1-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2293px 20px, 2293px 20px, 20px 2293px, 20px 2293px;
+}
+
+/* line 27, ../sass/screen.scss */
+.box-black-single-2 {
+  padding: 20px;
+  background-image: url(../images/black-single-2-horiz.png), url(../images/black-single-2-horiz.png), url(../images/black-single-2-vert.png), url(../images/black-single-2-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2401px 20px, 2401px 20px, 20px 2401px, 20px 2401px;
+}
+
+/* line 31, ../sass/screen.scss */
+.box-blue-multi-1 {
+  padding: 20px;
+  background-image: url(../images/blue-multi-1-horiz.png), url(../images/blue-multi-1-horiz.png), url(../images/blue-multi-1-vert.png), url(../images/blue-multi-1-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2318px 20px, 2318px 20px, 20px 2318px, 20px 2318px;
+}
+
+/* line 34, ../sass/screen.scss */
+.box-blue-multi-2 {
+  padding: 20px;
+  background-image: url(../images/blue-multi-2-horiz.png), url(../images/blue-multi-2-horiz.png), url(../images/blue-multi-2-vert.png), url(../images/blue-multi-2-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2409px 20px, 2409px 20px, 20px 2409px, 20px 2409px;
+}
+
+/* line 38, ../sass/screen.scss */
+.box-blue-single-1 {
+  padding: 20px;
+  background-image: url(../images/blue-single-1-horiz.png), url(../images/blue-single-1-horiz.png), url(../images/blue-single-1-vert.png), url(../images/blue-single-1-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2385px 20px, 2385px 20px, 20px 2385px, 20px 2385px;
+}
+
+/* line 41, ../sass/screen.scss */
+.box-blue-single-2 {
+  padding: 20px;
+  background-image: url(../images/blue-single-2-horiz.png), url(../images/blue-single-2-horiz.png), url(../images/blue-single-2-vert.png), url(../images/blue-single-2-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2339px 20px, 2339px 20px, 20px 2339px, 20px 2339px;
+}
+
+/* line 45, ../sass/screen.scss */
+.box-red-multi-1 {
+  padding: 20px;
+  background-image: url(../images/red-multi-1-horiz.png), url(../images/red-multi-1-horiz.png), url(../images/red-multi-1-vert.png), url(../images/red-multi-1-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2099px 20px, 2099px 20px, 20px 2099px, 20px 2099px;
+}
+
+/* line 49, ../sass/screen.scss */
+.box-red-single-1 {
+  padding: 20px;
+  background-image: url(../images/red-single-1-horiz.png), url(../images/red-single-1-horiz.png), url(../images/red-single-1-vert.png), url(../images/red-single-1-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2214px 20px, 2214px 20px, 20px 2214px, 20px 2214px;
+}
+
+/* line 52, ../sass/screen.scss */
+.box-red-single-2 {
+  padding: 20px;
+  background-image: url(../images/red-single-2-horiz.png), url(../images/red-single-2-horiz.png), url(../images/red-single-2-vert.png), url(../images/red-single-2-vert.png);
+  background-position: top left, bottom left, left, right;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 2300px 20px, 2300px 20px, 20px 2300px, 20px 2300px;
 }
