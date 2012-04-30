@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 
-@mixin box($baseFileName, $imageWidth, $padding: 20px) {
+@mixin box($baseFileName, $imageWidth, $padding: 40px) {
 	padding: $padding;
 	$imageLength: image-width('#{$baseFileName}-horiz.png');
 
@@ -18,37 +18,37 @@
 
 
 .box-black-multi-1 {
-	@include box(black-multi-1, 20px);
+	@include box(black-multi-1, 40px);
 }
 
 .box-black-single-1 {
-	@include box(black-single-1, 20px);
+	@include box(black-single-1, 40px);
 }
 .box-black-single-2 {
-	@include box(black-single-2, 20px);
+	@include box(black-single-2, 40px);
 }
 
 .box-blue-multi-1 {
-	@include box(blue-multi-1, 20px);
+	@include box(blue-multi-1, 40px);
 }
 .box-blue-multi-2 {
-	@include box(blue-multi-2, 20px);
+	@include box(blue-multi-2, 40px);
 }
 
 .box-blue-single-1 {
-	@include box(blue-single-1, 20px);
+	@include box(blue-single-1, 40px);
 }
 .box-blue-single-2 {
-	@include box(blue-single-2, 20px);
+	@include box(blue-single-2, 40px);
 }
 
 .box-red-multi-1 {
-	@include box(red-multi-1, 20px);
+	@include box(red-multi-1, 40px);
 }
 
 .box-red-single-1 {
-	@include box(red-single-1, 20px);
+	@include box(red-single-1, 40px);
 }
 .box-red-single-2 {
-	@include box(red-single-2, 20px);
+	@include box(red-single-2, 40px);
 }
